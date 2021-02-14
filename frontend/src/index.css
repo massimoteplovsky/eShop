@@ -1,0 +1,58 @@
+main {
+  min-height: 80vh;
+}
+
+h1 {
+  font-size: 1.8rem;
+  padding: 1rem 0;
+}
+
+h2 {
+  font-size: 1.4rem;
+  padding: 0.5rem 0;
+}
+
+h3 {
+  padding: 1rem 0;
+}
+
+h6 {
+  margin: 1.5rem 0;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.items-count {
+  display: none;
+}
+
+.cart-items .items-count {
+  display: inline;
+  margin-left: 5px;
+  color: #f8e825;
+  text-align: center;
+  line-height: 16px;
+  font-size: .8rem;
+}
+
+.field-error {
+  border: 1px solid #ff1313;
+}
+
+.field-error-msg {
+  display: inline-block;
+  margin-top: 5px;
+  color: #ff1313;
+}
+
+.form-check-input {
+  top: 7px
+}
+
+.save-mode-check > .form-check-input {
+  top: 0px;
+}
+
+.user-orders td {
+  font-size: .6rem;
+}

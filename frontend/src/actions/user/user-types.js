@@ -1,0 +1,11 @@
+export const RESET_LOGIN = "RESET_LOGIN";
+export const RESET_REGISTRATION = "RESET_REGISTRATION";
+export const RESET_UPDATE = "RESET_UPDATE";
+export const CHECK_USER_AUTH = "CHECK_USER_AUTH";
+export const LOGIN_USER = "LOGIN_USER";
+export const REGISTRATE_USER = "REGISTRATE_USER";
+export const UPDATE_USER = "UPDATE_USER";
+export const LOGOUT_USER = "LOGOUT_USER";
+export const FETCH_USERS = "FETCH_USERS";
+export const DELETE_USER = " DELETE_USER";
+export const RESET_USERS = "RESET_USERS";
