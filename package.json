@@ -1,0 +1,35 @@
+{
+  "name": "shopping-cart",
+  "version": "1.0.0",
+  "description": "Backend",
+  "main": "index.js",
+  "scripts": {
+    "start-back-server": "nodemon backend/server",
+    "start-front-server": "npm run start --prefix frontend",
+    "start-app": "concurrently \"npm run start-back-server\" \"npm run start-front-server\" ",
+    "db-data-import": "node backend/config/seed-db",
+    "db-data-destroy": "node backend/config/seed-db -d"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "2.4.3",
+    "body-parser": "1.19.0",
+    "concurrently": "5.3.0",
+    "cookie-parser": "1.4.5",
+    "dotenv": "8.2.0",
+    "express": "4.17.1",
+    "express-async-handler": "1.1.4",
+    "express-fileupload": "1.2.1",
+    "express-validator": "6.9.2",
+    "jsonwebtoken": "8.5.1",
+    "mongoose": "5.11.13",
+    "multer": "1.4.2",
+    "nodemon": "2.0.7"
+  },
+  "devDependencies": {
+    "colors": "1.4.0",
+    "cors": "2.8.5",
+    "uuid": "8.3.2"
+  }
+}
